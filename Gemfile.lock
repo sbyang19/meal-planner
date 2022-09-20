@@ -96,6 +96,8 @@ GEM
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
+    faker (2.23.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -215,6 +217,7 @@ DEPENDENCIES
   clearance
   debug
   factory_bot_rails
+  faker
   importmap-rails
   jbuilder
   minitest-rails (~> 7.0)
