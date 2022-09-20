@@ -91,6 +91,11 @@ GEM
     email_validator (2.2.3)
       activemodel
     erubi (1.11.0)
+    factory_bot (6.2.1)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.2.0)
+      factory_bot (~> 6.2.0)
+      railties (>= 5.0.0)
     ffi (1.15.5)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -117,6 +122,9 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
+    minitest-rails (7.0.0)
+      minitest (~> 5.10)
+      railties (~> 7.0.0)
     msgpack (1.5.6)
     net-imap (0.2.3)
       digest
@@ -206,8 +214,10 @@ DEPENDENCIES
   bootsnap
   clearance
   debug
+  factory_bot_rails
   importmap-rails
   jbuilder
+  minitest-rails (~> 7.0)
   nokogiri
   pg (~> 1.1)
   puma (~> 5.0)
