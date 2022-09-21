@@ -48,6 +48,8 @@ gem "clearance"
 gem "bootstrap-sass", "~> 3.4.1"
 gem "sassc-rails"
 
+gem "httparty"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -57,6 +59,7 @@ group :development, :test do
   gem "minitest-rails", "~> 7.0"
   gem "factory_bot_rails"
   gem "faker"
+  gem "dotenv-rails"
 end
 
 group :development do
