@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url(image_path("ORFF0J0.jpg"));
+  background-color: white;
   background-size: 100vw;
 }
 
@@ -61,7 +61,41 @@ body {
   width: max-content;
   height: 185px;
   position: absolute;
-  top: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#clearance {
+  font-family: 'Dangrek', cursive;
+  font-size: 40px;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-size: 20px;
+}
+
+.sign-in-box {
+  background-color: white;
+  background-size: 100px, 150px !important;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.form {
+  overflow: hidden;
+  padding-right: 14px;
+}
+
+.input {
+  float: right;
+  clear: both;
 }
 
 .recipes {
