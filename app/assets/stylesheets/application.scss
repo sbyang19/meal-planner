@@ -7,12 +7,37 @@
 }
 
 .navbar {
-  background-color: transparent;
-  border-color: transparent;
+  background-color: white;
+  border-color: white;
+  height: 12vh;
 }
 
 .container {
   width: 100vw;
+}
+
+body {
+  background-image: url(image_path("ORFF0J0.jpg"));
+  background-size: 100vw;
+}
+
+.navbar-brand {
+  font-family: 'Dangrek', cursive;
+  font-size: 40px;
+  color: black !important;
+  margin-top: 16px;
+}
+
+.sign-in-button {
+  font-size: 18px;
+  color: black !important;
+  margin-top: 16px;
+}
+
+.sign-up-button {
+  font-size: 18px;
+  color: black !important;
+  margin-top: 16px;
 }
 
 .title-container {
@@ -24,6 +49,19 @@
   h1 {
     margin: 0;
   }
+}
+
+.welcome-sign {
+  background-color: white;
+
+  .special-welcome {
+    font-family: 'Dangrek', cursive;
+    font-size: 70px;
+  }
+  width: max-content;
+  height: 185px;
+  position: absolute;
+  top: 40%;
 }
 
 .recipes {
