@@ -18,8 +18,9 @@ class RecipesController < ApplicationController
     name_with_spaces = name_string.parameterize(separator: '%20')
     response = HTTParty.get('https://api.edamam.com/api/recipes/v2?type=public&q=' + name_with_spaces + '&app_id=' + ENV["EDAMAM_APP_ID"] + '&app_key=' + ENV["EDAMAM_APP_KEY"])
     result = JSON.parse(response.body)
-    parsed_recipe = result['hits'][0]['recipe']['ingredientLines']
-    @recipe = current_user.recipes.build(name: params["recipe"]["name"], description: parsed_recipe)
+    parsed_ingredients = result['hits'][0]['recipe']['ingredientLines'].join("\n")
+    parsed_url = result['hits'][0]['recipe']['url']
+    @recipe = current_user.recipes.build(name: params["recipe"]["name"], description: parsed_ingredients + "\n\n" + parsed_url)
     if @recipe.save
       redirect_to recipe_path(@recipe), notice: "Recipe Created!"
     else
