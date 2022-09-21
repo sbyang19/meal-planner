@@ -15,18 +15,23 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-          <%= link_to "Meal Planning", root_path, class: "navbar-brand" %>
+          <%= link_to "Meal Planner", root_path, class: "navbar-brand" %>
           </div>
 
-          <ul class="nav navbar-nav navbar-right">
-            <% if signed_in? %>
+          <% if signed_in? %>
+            <ul class="nav navbar-nav">
               <li><%= link_to "Meal Plans", meal_plans_path %></li>
-              <li><%= link_to "Recipes", recipes_path%></li>
+              <li><%= link_to "Recipes", recipes_path %></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
               <li><%= button_to "Sign Out", sign_out_path, method: :delete %>
-            <% else %>
-              <li><%= link_to 'Sign in', sign_in_path %></li>
-            <% end %>
-          </ul>
+            </ul>
+          <% else %>
+            <ul class="nav navbar-nav navbar-right">
+              <li><%= link_to "Sign in", sign_in_path %></li>
+            </ul>
+          <% end %>
         </div>
       </nav>
     </header>
