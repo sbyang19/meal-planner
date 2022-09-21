@@ -28,13 +28,7 @@ body {
   margin-top: 16px;
 }
 
-.sign-in-button {
-  font-size: 18px;
-  color: black !important;
-  margin-top: 16px;
-}
-
-.sign-up-button {
+.dashboard-button {
   font-size: 18px;
   color: black !important;
   margin-top: 16px;
@@ -47,7 +41,9 @@ body {
   margin-bottom: 20px;
 
   h1 {
-    margin: 0;
+    font-family: 'Dangrek', cursive;
+    font-size: 40px;
+    padding-left: 22px;
   }
 }
 
@@ -90,7 +86,23 @@ body {
 }
 
 h2 {
+  padding-left: 22px;
+}
+
+h3 {
+  padding-left: 22px;
+}
+
+h4 {
   font-size: 40px;
+}
+
+.new-meal-plan-link {
+  padding-left: 22px;
+}
+
+.recipe-description {
+  padding-left: 22px;
 }
 
 .form {

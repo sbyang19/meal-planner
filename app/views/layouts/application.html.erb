@@ -24,17 +24,17 @@
 
           <% if signed_in? %>
             <ul class="nav navbar-nav">
-              <li><%= link_to "Meal Plans", meal_plans_path %></li>
-              <li><%= link_to "Recipes", recipes_path %></li>
+              <li><%= link_to "Meal Plans", meal_plans_path, class: "dashboard-button" %></li>
+              <li><%= link_to "Recipes", recipes_path, class: "dashboard-button" %></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-              <li><%= button_to "Sign Out", sign_out_path, method: :delete %>
+              <li><%= button_to "Sign Out", sign_out_path, method: :delete, class: "dashboard-button" %>
             </ul>
           <% else %>
             <ul class="nav navbar-nav navbar-right">
-              <li><%= link_to "Sign In", sign_in_path, class: "sign-in-button" %></li>
-              <li><%= link_to "Sign Up", sign_up_path, class: "sign-up-button" %></li>
+              <li><%= link_to "Sign In", sign_in_path, class: "dashboard-button" %></li>
+              <li><%= link_to "Sign Up", sign_up_path, class: "dashboard-button" %></li>
             </ul>
           <% end %>
         </div>
