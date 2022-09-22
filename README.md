@@ -103,9 +103,6 @@ Meal Planner is a web application built on the Ruby on Rails framework with a Po
 
 The following are instructions on how to set up Meal Planner locally. 
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 To get a local copy of Meal Planner up and running, we first need to download [Docker Desktop](https://www.docker.com/). Downloading Docker Desktop will automatically enable docker-compose commands to be run in bash.
@@ -118,15 +115,18 @@ After downloading Docker Desktop, we are ready to move on to installation.
    ```sh
    git clone https://github.com/sbyang19/meal_planner.git
    ```
+   
 2. Within the local repository, run:
    ```sh
    docker-compose build && docker-compose up -d
    ```
    to build the application and start the Docker containers.
+
 3. To execute commands within the Docker containers, run:
    ```sh
    docker-compose exec app bash
    ```
+
 4. To create the database the migration, run:
    ```sh
    rails db:create
@@ -134,6 +134,7 @@ After downloading Docker Desktop, we are ready to move on to installation.
    ```sh
    rails db:migrate
    ```
+   
 5. After following the steps above, you will be able to access Meal Planner on [localhost:3000](localhost:3000)!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
