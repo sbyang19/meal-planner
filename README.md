@@ -28,11 +28,11 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<!-- <br />
 <div align="center">
   <a href="https://github.com/sbyang19/meal_planner">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
 <h3 align="center">Meal Planner</h3>
 
@@ -82,13 +82,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Meal Planner is a web application built on the Ruby on Rails framework with a PostgreSQL database, each compartmentalized as a container within a Docker image. The front-end is built entirely using the Bootstrap HTML/CSS/JavaScript library.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -99,8 +97,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Bootstrap][Bootstrap-logo]][Bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
