@@ -230,11 +230,11 @@ Project Link: [https://github.com/sbyang19/meal_planner](https://github.com/sbya
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/ruby-cc342d?style=for-the-badge&logo=ruby&logoColor=white
 [Next-url]: https://ruby-lang.org/en/
-[React.js]: https://img.shields.io/badge/ruby%20on%20rails-d30001?style=for-the-badge&logo=rubyonrails&logoColor=61DAFB
+[React.js]: https://img.shields.io/badge/ruby%20on%20rails-d30001?style=for-the-badge&logo=rubyonrails&logoColor=white
 [React-url]: https://rubyonrails.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Vue.js]: https://img.shields.io/badge/postgresql-32658f?style=for-the-badge&logo=postgresql&logoColor=white
+[Vue-url]: https://postgresql.org/
+[Angular.io]: https://img.shields.io/badge/docker-003f8c?style=for-the-badge&logo=docker&logoColor=white
 [Angular-url]: https://angular.io/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
