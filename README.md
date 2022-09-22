@@ -220,7 +220,7 @@ Project Link: [https://github.com/sbyang19/meal_planner](https://github.com/sbya
 [license-shield]: https://img.shields.io/github/license/sbyang19/meal_planner.svg?style=for-the-badge
 [license-url]: https://github.com/sbyang19/meal_planner/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/sangbeom-sammy-yang
 [product-screenshot]: images/screenshot.png
 [Ruby-logo]: https://img.shields.io/badge/ruby-cc342d?style=for-the-badge&logo=ruby&logoColor=white
 [Ruby-url]: https://ruby-lang.org/en/
