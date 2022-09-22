@@ -34,19 +34,19 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Meal Planner</h3>
 
   <p align="center">
-    project_description
+    A meal planner that utilizes the Edamam Recipe Search API to automatically generate a recipe from keywords and populate a weekly meal plan!
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sbyang19/meal_planner"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/sbyang19/meal_planner">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/sbyang19/meal_planner/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/sbyang19/meal_planner/issues">Request Feature</a>
   </p>
 </div>
 
