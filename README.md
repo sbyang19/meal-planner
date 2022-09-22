@@ -37,12 +37,11 @@
 <h3 align="center">Meal Planner</h3>
 
   <p align="center">
-    A meal planner that utilizes the Edamam Recipe Search API to automatically generate a recipe from keywords and populate a weekly meal plan!
+    Built utilizing the Edamam Recipe Search API to automatically generate a recipe from keywords and populate a weekly meal plan!
     <br />
     <a href="https://github.com/sbyang19/meal_planner"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sbyang19/meal_planner">View Demo</a>
     ·
     <a href="https://github.com/sbyang19/meal_planner/issues">Report Bug</a>
     ·
