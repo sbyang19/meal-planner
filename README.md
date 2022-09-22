@@ -94,7 +94,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![Ruby][Ruby-logo]][Ruby-url]
 * [![RubyOnRails][RubyOnRails-logo]][RubyOnRails-url]
-* [![PostgreSQL][PostgreSQL-logo]][PostgreSQL-logo-url]
+* [![PostgreSQL][PostgreSQL-logo]][PostgreSQL-url]
 * [![Docker][Docker-logo]][Docker-url]
 * [![Bootstrap][Bootstrap-logo]][Bootstrap-url]
 
