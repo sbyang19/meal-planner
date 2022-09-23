@@ -127,7 +127,7 @@ After downloading Docker Desktop, we are ready to move on to installation.
    docker-compose exec app bash
    ```
 
-4. To create the database the migration, run:
+4. To create the database and the migration, run:
    ```sh
    rails db:create
    ```
